@@ -44,7 +44,7 @@ app.Animation = (function () {
     function start() {
         tl1.from(lid, 2, {scale:2, ease: Cubic.easeInOut}, "+=2")
             .from(lid, 1, {opacity:0}, "-=2")
-
+    
             .from(table, 3, {y: "+=150", scale: 2, ease: Cubic.easeInOut}, "-=1.5")
             .from(marble, 3, {y: "-=20", ease: Cubic.easeInOut}, "-=3");
 
